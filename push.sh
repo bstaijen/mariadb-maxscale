@@ -1,0 +1,1 @@
+docker push bstaijen/mariadb-maxscale-for-galera-cluster:latest
