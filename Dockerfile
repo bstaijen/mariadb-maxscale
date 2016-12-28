@@ -15,9 +15,6 @@ RUN mkdir -p /etc/maxscale.d \
 COPY maxscale-entrypoint.sh /
 COPY ./docker-entrypoint-initdb.d/ /docker-entrypoint-initdb.d/
 
-#temp
-# COPY maxscale.cnf /etc/maxscale.cnf
-
 # VOLUME for custom configuration
 VOLUME ["/etc/maxscale.d"]
 
